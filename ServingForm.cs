@@ -15,6 +15,7 @@ namespace BasicQueueCashier
         public ServingForm()
         {
             InitializeComponent();
+
             Timer timer = new Timer();
             timer.Interval = (1 * 1000);
             timer.Tick += new EventHandler(ServingForm_Load);
